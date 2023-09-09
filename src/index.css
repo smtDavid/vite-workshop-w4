@@ -480,6 +480,9 @@ nav ul a span {
   right: 4px;
   padding: 10px;
 }
+.inputBox a:hover {
+  background: #d87355;
+}
 
 .todoList_list {
   background: #fff;

@@ -58,7 +58,7 @@ const Todo = () => {
           icon: "success",
           title: `代辦事項新增成功`,
           showConfirmButton: false,
-          timer: 1500,
+          timer: 1000,
         });
       } catch (err) {
         Swal.fire({
@@ -92,7 +92,7 @@ const Todo = () => {
         icon: "success",
         title: `代辦事項刪除成功`,
         showConfirmButton: false,
-        timer: 1500,
+        timer: 1000,
       });
       getTodo();
     } catch (err) {
@@ -120,7 +120,7 @@ const Todo = () => {
         icon: "error",
         title: `尚未有已完成項目`,
         showConfirmButton: false,
-        timer: 1500,
+        timer: 1000,
       });
     } else {
       deleteItem.forEach(async (item) => {
