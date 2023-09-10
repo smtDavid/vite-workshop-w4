@@ -6,6 +6,7 @@ import Auth from "./views/Auth";
 import SignUp from "./views/SignUp";
 import SignIn from "./views/SignIn";
 import Todo from "./views/Todo";
+import NotFound from "./views/NotFound";
 
 // import "./App.css";
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="sign_up" element={<SignUp />}></Route>
         </Route>
         <Route path="/todo" element={<Todo />}></Route>
+        <Route path="*" element={<NotFound/>}></Route>
       </Routes>
     </>
   );
